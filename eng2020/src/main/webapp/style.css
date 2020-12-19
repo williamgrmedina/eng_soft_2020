@@ -1,0 +1,56 @@
+
+.form {
+	position: absolute;
+	width: 739px;
+	height: 1670px;
+	left: 339px;
+	top: 22px;
+
+	background: #4267B2;
+	border-radius: 5px;
+}.form-header {
+	position: absolute;
+	width: 739px;
+	height: 120px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 59px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+#cadastro {
+	position: relative;	
+	top: 30px;
+}
+
+.form-content {
+	position:absolute;
+	display:flex;
+	flex-direction: column;
+	width: 739px;
+	height: 1518px;
+	top: 118px;
+	align-content: center;
+	align-items: center;
+}
+
+.form-group {
+	width: 500px;
+}
+
+.submit {
+	padding-top: 20px;
+}
+
+.submit_button {
+	width: 500px;
+	border-radius: 20px;
+	height: 99px;
+	background-color: #FFF500;
+	font-size: 26px;
+}
