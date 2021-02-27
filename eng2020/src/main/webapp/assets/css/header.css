@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 de fev. de 2021, 19:28:41
+    Author     : Medina
+*/
+
+::placeholder {
+    color: #000000;
+    opacity: 0.8;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    background: #3CB9FF;
+}
+
+#book_logo {
+    position: relative;
+    padding-left: 15px;
+}
+
+.search_bar {
+    align-self: center;
+    position: relative;
+    padding:30px;
+}
+
+.search_bar i {
+    position: absolute;
+}
+
+#search_bar_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+
+#search_icon {
+    position: absolute;
+    padding: 10px;
+}
+
+#company_title {
+    align-self: center;
+    padding-left: 15px;
+    width: 200px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.search_box {
+    position: absolute;
+    width: 706px;
+    height: 42px;
+    left: 355px;
+    top: 30px;
+}
